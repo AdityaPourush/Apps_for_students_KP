@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+nav{
+    height: 80px;
+    background-color: aquamarine;
+}
+nav>a{
+    color: sienna;
+    font-weight: 500;
+    text-decoration: solid;
+}
+nav>a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+header{
+    flex-wrap: wrap-reverse;
+    background-color: violet;
+}
+.header-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+header img{
+    height: 300px;
+    width: 200px;
+    margin-left: 600px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: yellow;
+    margin-top: 32px;
+}
+.button p{
+    color: brown;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.productivity-heading{
+    position: absolute;
+    background-image: url(https://progradjr.github.io/portfolio/assets/bg.png);
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 636px;
+    z-index: -1;
+    left: 0;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.productivity-text{
+    margin-top: 1%;
+    margin-right: 100px;
+    margin-left: 750px;
+}
+#productivity{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.direction-column{
+    flex-direction: column;
+}
+
+#notes>h3{
+    text-align: center;
+    text-decoration: overline;
+    font-size: x-large;
+    background-image: url(https://th.bing.com/th/id/OIP.BWtJ2LdEyF6-6Gklt07eOgAAAA?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+}
+#notes{
+    margin-top: 100px;
+    background-color: cornflowerblue;
+}
+.direction-row{
+    flex-direction: row;
+}
+
+#notes img{
+    height: 250px;
+    width: 250px;
+}
+#also{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: burlywood;
+}
+#also>h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#also>p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.todo{
+    position: absolute;
+    right: 0;
+    font-size: xx-large;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+#to-do{
+    background-color: darkgoldenrod;
+}
+#to-do img{
+    height: 250px;
+    width: 250px;
+}
+.to-do-text{
+    max-width: 900px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.calender-heading{
+    background-image: url(https://th.bing.com/th/id/OIP.Hp26ONZQJa_nJNDMVCecLAHaHa?pid=ImgDet&rs=1);
+    z-index: -1;
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    color: beige;
+    margin-left: 20px;
+}
+.calender-text{
+    max-width: 700px;
+    flex-wrap: wrap;
+    padding-right: 200px;
+    font-size: x-large;
+}
+#calender{
+    margin-top: 30px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 73px;
+    background-color: coral;
+}
+
+footer p {
+    text-align: left;
+    padding-bottom: 4px;
+}
